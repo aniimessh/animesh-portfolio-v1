@@ -3,10 +3,10 @@ import Hero from "@/components/hero/Hero";
 
 const Home = () => {
   return (
-    <>
+    <div>
       <Hero />
       <About />
-    </>
+    </div>
   );
 };
 

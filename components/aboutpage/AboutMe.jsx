@@ -5,7 +5,7 @@ const AboutMe = () => {
   return (
     <div>
       <h1 className="text-3xl font-Nunito font-bold">Get to know me!</h1>
-      <div className="w-5/6">
+      <div className="sm:w-5/6 w-full">
         <p className="mt-8 aboutme_text">
           I'm a <strong> Frontend Web Developer</strong> building the Front-end
           of Websites and Web Applications that leads to the success of the

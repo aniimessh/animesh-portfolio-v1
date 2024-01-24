@@ -4,7 +4,7 @@ import { SiLeetcode } from "react-icons/si";
 
 const MyLinks = () => {
   return (
-    <div className="absolute right-0">
+    <div className="right-0 bottom-1/2 translate-y-1/2 absolute hidden sm:block">
       <div className="flex flex-col space-y-1 bg-white shadow-[rgba(0,_0,_0,_0.4)_0px_30px_90px] rounded-tl-lg  rounded-bl-lg p-2">
         <Link
           href="https://www.linkedin.com/in/aniimessh-gupta/"

@@ -24,7 +24,7 @@
 }
 
 .hero_text {
-  @apply text-6xl font-Nunito z-0 font-bold;
+  @apply text-6xl font-Nunito font-bold;
 }
 
 .aboutme_text{

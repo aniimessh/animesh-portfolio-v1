@@ -4,7 +4,7 @@ const MySkills = () => {
   return (
     <div>
       <h1 className="text-3xl font-Nunito font-bold">My Skills</h1>
-      <div className="w-5/6 flex flex-wrap gap-5 mt-8">
+      <div className="sm:w-5/6 w-full flex flex-wrap gap-5 mt-8">
         {mySkills.map((item) => {
           return (
             <div key={item.id} className="">
