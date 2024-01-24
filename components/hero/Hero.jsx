@@ -10,7 +10,7 @@ const Hero = () => {
         height={720}
         className="border h-screen w-screen absolute object-cover opacity-30"
       />
-      <h1 className="text-6xl font-Nunito z-0 font-bold">
+      <h1 className="hero_text">
         HEY, I'M ANIMESH GUPTA
       </h1>
       <p className="text-lg w-1/3 text-center font-Nunito font-semibold">
