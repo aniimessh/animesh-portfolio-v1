@@ -18,7 +18,7 @@ const AboutMe = () => {
           other people of the Dev Community. Feel free to Connect or Follow me
           on my{" "}
           <strong>
-            <Link href="" className="underline text-[#faa307]">
+            <Link href="https://www.linkedin.com/in/aniimessh-gupta/" target="_blank" className="underline text-[#faa307]">
               Linkedin
             </Link>
           </strong>{" "}
