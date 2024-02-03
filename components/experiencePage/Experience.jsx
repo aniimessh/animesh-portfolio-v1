@@ -21,7 +21,7 @@ const Experience = () => {
             My Educational Qualification & Work Experience
           </p>
         </>
-        <div className="text-black border">
+        <div className="text-black border w-full">
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work text-black"
