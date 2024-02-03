@@ -6,6 +6,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import { IoSchoolOutline } from "react-icons/io5";
+import { LuSchool } from "react-icons/lu";
 
 const Experience = () => {
   return (
@@ -53,6 +54,37 @@ const Experience = () => {
                 Raigarh, Chattisgarh
               </h4>
               <p>B.Tech in Computer Science & Engineering</p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              className="vertical-timeline-element--work text-black"
+              contentStyle={{
+                color: "#000",
+                boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+                border: "1px solid #0f0f0f",
+              }}
+              contentArrowStyle={{
+                borderRight: "7px solid  ",
+                boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+                border: "1px solid #0f0f0f",
+              }}
+              date=" 2021 - 2024"
+              iconStyle={{
+                color: "#000",
+                boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+                border: "1px solid #0f0f0f",
+              }}
+              icon={<LuSchool />}
+            >
+              <h3
+                className="vertical-timeline-element-title"
+                style={{ color: "black" }}
+              >
+                Usha Martin Unversity
+              </h3>
+              <h4 className="vertical-timeline-element-subtitle">
+                Ranchi, Jharkhand
+              </h4>
+              <p>Diploma in Computer Science & Engineering</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
