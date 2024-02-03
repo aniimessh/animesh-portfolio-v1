@@ -5,7 +5,7 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { MdOutlineWork } from "react-icons/md";
+import { IoSchoolOutline } from "react-icons/io5";
 
 const Experience = () => {
   return (
@@ -21,29 +21,38 @@ const Experience = () => {
             My Educational Qualification & Work Experience
           </p>
         </>
-        <div className="text-black">
+        <div className="text-black border">
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work text-black"
-              contentStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              contentArrowStyle={{
-                borderRight: "7px solid  rgb(33, 150, 243)",
+              contentStyle={{
+                color: "#000",
+                boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+                border: "1px solid #0f0f0f",
               }}
-              date="2011 - present"
-              iconStyle={{ background: "rgb(33, 150, 243)", color: "#000" }}
-              icon={<MdOutlineWork />}
+              contentArrowStyle={{
+                borderRight: "7px solid  ",
+                boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+                border: "1px solid #0f0f0f",
+              }}
+              date=" 2021 - 2024"
+              iconStyle={{
+                color: "#000",
+                boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
+                border: "1px solid #0f0f0f",
+              }}
+              icon={<IoSchoolOutline />}
             >
               <h3
                 className="vertical-timeline-element-title"
                 style={{ color: "black" }}
               >
-                Creative Director
+                OP Jindal University
               </h3>
-              <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
-              <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
-              </p>
+              <h4 className="vertical-timeline-element-subtitle">
+                Raigarh, Chattisgarh
+              </h4>
+              <p>B.Tech in Computer Science & Engineering</p>
             </VerticalTimelineElement>
           </VerticalTimeline>
         </div>
