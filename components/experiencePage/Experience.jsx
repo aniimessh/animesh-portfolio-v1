@@ -22,7 +22,7 @@ const Experience = () => {
             My Educational Qualification & Work Experience
           </p>
         </>
-        <div className="text-black border w-full">
+        <div className="text-black w-full">
           <VerticalTimeline>
             <VerticalTimelineElement
               className="vertical-timeline-element--work text-black"
@@ -32,7 +32,7 @@ const Experience = () => {
                 border: "1px solid #0f0f0f",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  ",
+                borderRight: "7px solid  rgba(0, 0, 0, 0.15)",
                 boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
                 border: "1px solid #0f0f0f",
               }}
@@ -63,11 +63,11 @@ const Experience = () => {
                 border: "1px solid #0f0f0f",
               }}
               contentArrowStyle={{
-                borderRight: "7px solid  ",
+                borderRight: "7px solid rgba(0, 0, 0, 0.15) ",
                 boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
                 border: "1px solid #0f0f0f",
               }}
-              date=" 2021 - 2024"
+              date=" 2018  - 2021"
               iconStyle={{
                 color: "#000",
                 boxShadow: "rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px",
