@@ -21,7 +21,7 @@ const Experience = () => {
     <>
       <div
         className="sm:w-3/4 pt-20 pb-20 sm:pt-0 p-5 sm:p-0 w-full md:h-screen  mx-auto flex justify-center items-center flex-col"
-        id=""
+        id="qualification"
       >
         <>
           <h1 className="hero_text text-center">Qualification</h1>

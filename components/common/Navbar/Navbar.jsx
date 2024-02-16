@@ -24,6 +24,9 @@ const Navbar = () => {
           <li>
             <Link href="#project">Project</Link>
           </li>
+          <li>
+            <Link href="#qualification">Qualification</Link>
+          </li>
         </ul>
         {showMenu ? (
           <VscChromeClose
@@ -56,6 +59,14 @@ const Navbar = () => {
                 onClick={() => setShowMenu((prev) => !prev)}
               >
                 Project
+              </Link>
+            </li>
+            <li className="p-3">
+              <Link
+                href="#qualification"
+                onClick={() => setShowMenu((prev) => !prev)}
+              >
+                Qualification
               </Link>
             </li>
           </ul>
