@@ -4,7 +4,7 @@ import { IoSchoolOutline } from "react-icons/io5";
 export const educationDetails = [
     {
         id: 1,
-        collegeName: "OP Jinal University",
+        collegeName: "OP Jindal University",
         year: "2021- 2024",
         place: "Raigarh, Chattisgarh",
         course: "B.Tech in Computer Science",
