@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "../globals.css";
 import Navbar from "@/components/core/Navbar";
+import DotPattern from "@/components/magicui/dot-pattern";
+import { cn } from "@/lib/utils";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,7 +21,15 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
-        {children}
+        <div className="relative flex w-full flex-col bg-black items-center justify-center overflow-hidden rounded-lg md:shadow-xl">
+          <p className="z-10 whitespace-pre-wrap text-center text-5xl font-medium tracking-tighter text-black dark:text-white"></p>
+          {children}
+          <DotPattern
+            className={cn(
+              "[mask-image:radial-gradient(300px_circle_at_center,white,transparent)]"
+            )}
+          />
+        </div>
       </body>
     </html>
   );
