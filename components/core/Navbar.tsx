@@ -9,14 +9,14 @@ const Navbar = () => {
   return (
     <div className=" py-5">
       <div className="container mx-auto">
-        <div className="flex items-center justify-between">
+        <div className="flex items-center md:justify-between justify-center">
           <Image
             src={require("../../public/logo.png")}
             alt="logo"
             width={150}
             className=""
           />
-          <ul className="flex gap-10">
+          <ul className="md:flex gap-10 hidden">
             <li>
               <Link
                 href="/"
