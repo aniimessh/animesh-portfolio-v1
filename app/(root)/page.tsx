@@ -10,7 +10,7 @@ const Home = () => {
     <div className="w-full h-screen relative">
       <Link
         href={"#about"}
-        className="bottom-20 absolute left-1/2 -translate-x-1/2"
+        className="bottom-20 absolute left-1/2    -translate-x-1/2"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
